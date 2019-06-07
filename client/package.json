@@ -8,7 +8,7 @@
     "@types/material-ui": "^0.21.5",
     "@types/recompose": "^0.26.4",
     "@types/yup": "^0.26.13",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "connected-react-router": "^4.4.1",
     "formik": "^1.5.4",
     "formik-material-ui": "^0.0.16",
