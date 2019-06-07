@@ -1,0 +1,16 @@
+version: "2"
+services:
+  app:
+    container_name: nodejsmongoosees8restapi
+    build: .
+    ports:
+      - "5000:5000"
+    depends_on:
+      -  mongodb
+    environment:
+      -  MONGO_HOSTNAME=mongodb
+  mongodb:
+    container_name: mongodb
+    image: mongo
+    ports:
+      - "27018:27017"
