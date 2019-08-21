@@ -2,7 +2,7 @@
 
 Jogging Track is a boilerplate which is made by MERN stack.
 
-## skills
+## Skills
 
 react, redux-saga, axios, formik, yup, material-ui, express, mongodb, oauth, mongoose
 
